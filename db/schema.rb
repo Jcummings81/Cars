@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_10_155049) do
+ActiveRecord::Schema.define(version: 2018_09_10_165125) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2018_09_10_155049) do
     t.string "interior"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "vin"
   end
 
 end
